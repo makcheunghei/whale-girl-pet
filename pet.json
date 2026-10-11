@@ -1,7 +1,7 @@
 {
   "name": "小鯨魚娘",
   "description": "深藍色長髮、鯨魚尾同側鰭嘅 Q 版女僕小鯨魚。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "spritesheet": "assets/whale-girl-v2.png",
   "sprite_version": 2,
   "width": 1536,
@@ -83,5 +83,7 @@
     292.5,
     315.0,
     337.5
-  ]
+  ],
+  "body_proportion": "A-short",
+  "character_reference": "assets/character-reference.png"
 }

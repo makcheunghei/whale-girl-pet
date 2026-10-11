@@ -2,19 +2,22 @@
 
 深藍色長髮、鯨魚尾同側鰭嘅 Q 版女僕小鯨魚。呢個公開素材包包含完整透明動畫圖、九種狀態動畫，以及 16 個望向周圍嘅方向姿勢。
 
+**目前版本：v1.1.0 · A 短身版。** 採用大頭、短身軀同短腿比例，全部動畫及轉頭姿勢已重新製作。[選定比例參考](assets/character-reference.png)
+
 ![小鯨魚娘九種動作](previews/motion.gif)
 
 ## 下載
 
-- **[完整素材包 ZIP](https://github.com/makcheunghei/whale-girl-pet/releases/download/v1.0.0/whale-girl-pet-v1.0.0.zip)** — 動畫圖、逐狀態預覽、影片及格式說明。
-- **[透明動畫圖 PNG](https://github.com/makcheunghei/whale-girl-pet/releases/download/v1.0.0/whale-girl-v2.png)** — `1536 × 2288`，完整 v2 sprite sheet。
-- [動畫影片 MP4](https://github.com/makcheunghei/whale-girl-pet/releases/download/v1.0.0/whale-girl-motion.mp4)
-- [Release 頁面](https://github.com/makcheunghei/whale-girl-pet/releases/tag/v1.0.0)
+- **[完整素材包 ZIP](https://github.com/makcheunghei/whale-girl-pet/releases/download/v1.1.0/whale-girl-pet-v1.1.0.zip)** — 動畫圖、逐狀態預覽、影片及格式說明。
+- **[透明動畫圖 PNG](https://github.com/makcheunghei/whale-girl-pet/releases/download/v1.1.0/whale-girl-v2.png)** — `1536 × 2288`，完整 v2 sprite sheet。
+- [動畫影片 MP4](https://github.com/makcheunghei/whale-girl-pet/releases/download/v1.1.0/whale-girl-motion.mp4)
+- [Release 頁面](https://github.com/makcheunghei/whale-girl-pet/releases/tag/v1.1.0)
 
 直接瀏覽：[全部姿勢](previews/contact-sheet.png) · [16 個方向](previews/directions.png) · [四個時間點嘅預覽](previews/motion-stills.png)
 
 ## 新版動畫
 
+- v1.1.0 採用 **A 短身比例**，重畫全部 73 格，待機、移動及轉頭保持同一短身造型。
 - 長髮同尾巴收近身體，預留安全邊距，保持每個姿勢完整。
 - 左右移動分別面向正確方向，加入交替步姿。
 - 待機有呼吸及眨眼；另外包含揮手、失敗、等待輸入、思考及檢查動作。
@@ -66,9 +69,13 @@ GIF／MP4 係方便瀏覽嘅動畫示範；完整可用素材係 PNG。實際播
 ## 驗證摘要
 
 - 所有 73 格通過尺寸、透明背景及格位驗證。
-- 跳躍最高離地 **36 px**；落地同待機腳底位置差 **1 px**。
+- 跳躍最高離地 **14 px**；落地同待機腳底位置差 **0 px**。
 - 四個主方向、全身完整度及兩列方向姿勢嘅比例通過獨立視覺審查。
 - 部分相鄰斜角嘅轉頭幅度較細，保留視覺審查提示。
 - 詳細數值及檔案 SHA-256：[validation.json](validation.json)。
 
 ![待機到跳躍再返回待機](previews/idle-jump.gif)
+
+## 舊版
+
+[v1.0.0 素材包](https://github.com/makcheunghei/whale-girl-pet/releases/tag/v1.0.0) 保留喺 Releases，方便比較之前嘅身體比例。

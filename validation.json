@@ -1,59 +1,59 @@
 {
   "ok": true,
-  "encoded_bytes": 2091590,
-  "sha256": "028a952ed092a0ca1e67e51db1cc193961be726175c288b73b2da69956fbbdd1",
+  "encoded_bytes": 2619093,
+  "sha256": "ff29244ca8705975cc8163839aa1c1844050989f5388c13b60f27e0341a39261",
   "jump": {
-    "idle_baseline": 191,
+    "idle_baseline": 190,
     "jump_baselines": [
       190,
       190,
-      154,
-      180,
+      176,
+      184,
       190
     ],
-    "airborne_lift_pixels": 36,
-    "landing_delta_pixels": 1
+    "airborne_lift_pixels": 14,
+    "landing_delta_pixels": 0
   },
   "look_registration": {
     "neutral_center_x": 95.0,
     "look_centers_x": [
-      93.5,
-      91.0,
-      91.5,
-      91.5,
-      92.0,
-      90.5,
-      91.0,
-      91.0,
+      97.5,
+      94.0,
       94.5,
+      95.5,
+      93.5,
       93.0,
-      93.0,
-      96.0,
-      99.0,
-      99.0,
+      92.0,
+      94.5,
+      95.0,
       99.5,
-      98.5
+      97.5,
+      97.5,
+      101.5,
+      105.5,
+      103.0,
+      101.5
     ],
     "look_widths": [
-      93,
-      94,
-      91,
-      93,
-      94,
-      93,
-      92,
-      92,
-      91,
-      90,
-      90,
-      84,
-      84,
-      86,
-      87,
-      87
+      115,
+      116,
+      117,
+      111,
+      109,
+      114,
+      112,
+      109,
+      120,
+      129,
+      125,
+      121,
+      121,
+      121,
+      120,
+      119
     ],
-    "maximum_center_drift_pixels": 4.5,
-    "maximum_width_ratio": 1.119047619047619
+    "maximum_center_drift_pixels": 10.5,
+    "maximum_width_ratio": 1.18348623853211
   },
   "errors": [],
   "warnings": [
@@ -63,7 +63,7 @@
     "look direction 112.5 accepted with a reviewed warning",
     "look direction 202.5 accepted with a reviewed warning",
     "look direction 292.5 accepted with a reviewed warning",
-    "247.5->270 diff is a local outlier (1919 pixels vs neighbor average 876)"
+    "067.5->090 diff is a local outlier (2037 pixels vs neighbor average 1230)"
   ],
   "artifact": "assets/whale-girl-v2.png",
   "host_preflight": {
