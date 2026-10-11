@@ -1,81 +1,64 @@
 # 小鯨魚娘 · Whale Girl Pet
 
-深藍色長髮、鯨魚尾同側鰭嘅 Q 版女僕小鯨魚。呢個公開素材包包含完整透明動畫圖、九種狀態動畫，以及 16 個望向周圍嘅方向姿勢。
+深藍色長髮、鯨魚尾同側鰭嘅 Q 版女僕小鯨魚。提供 **原版** 同 **A 短身版** 兩個獨立方案，可以按喜好選擇。
 
-**目前版本：v1.1.0 · A 短身版。** 採用大頭、短身軀同短腿比例，全部動畫及轉頭姿勢已重新製作。[選定比例參考](assets/character-reference.png)
+## 選擇方案
 
-![小鯨魚娘九種動作](previews/motion.gif)
+| | 原版 | A 短身版 |
+| --- | --- | --- |
+| 正面預覽 | ![原版](variants/original/previews/idle.png) | ![A 短身版](variants/short/previews/idle.png) |
+| 身體比例 | 保留原有身軀同腿部比例 | 大頭、短身軀、短腿 |
+| 素材版本 | v1.0.0 | v1.1.0 |
+| 完整素材包 | [下載原版 ZIP](https://github.com/makcheunghei/whale-girl-pet/releases/download/v1.0.0/whale-girl-pet-v1.0.0.zip) | [下載短身版 ZIP](https://github.com/makcheunghei/whale-girl-pet/releases/download/v1.1.0/whale-girl-pet-v1.1.0.zip) |
+| 透明動畫圖 | [下載原版 PNG](https://github.com/makcheunghei/whale-girl-pet/releases/download/v1.0.0/whale-girl-v2.png) | [下載短身版 PNG](https://github.com/makcheunghei/whale-girl-pet/releases/download/v1.1.0/whale-girl-v2.png) |
+| 動畫影片 | [原版 MP4](https://github.com/makcheunghei/whale-girl-pet/releases/download/v1.0.0/whale-girl-motion.mp4) | [短身版 MP4](https://github.com/makcheunghei/whale-girl-pet/releases/download/v1.1.0/whale-girl-motion.mp4) |
+| 說明與逐狀態預覽 | [原版完整說明](variants/original/README.md) | [短身版完整說明](variants/short/README.md) |
+| Release | [原版發佈頁面](https://github.com/makcheunghei/whale-girl-pet/releases/tag/v1.0.0) | [短身版發佈頁面](https://github.com/makcheunghei/whale-girl-pet/releases/tag/v1.1.0) |
 
-## 下載
+兩款均包含九種狀態動畫、16 個望向周圍嘅方向姿勢、透明動畫圖、GIF／MP4 預覽及驗證資料。
 
-- **[完整素材包 ZIP](https://github.com/makcheunghei/whale-girl-pet/releases/download/v1.1.0/whale-girl-pet-v1.1.0.zip)** — 動畫圖、逐狀態預覽、影片及格式說明。
-- **[透明動畫圖 PNG](https://github.com/makcheunghei/whale-girl-pet/releases/download/v1.1.0/whale-girl-v2.png)** — `1536 × 2288`，完整 v2 sprite sheet。
-- [動畫影片 MP4](https://github.com/makcheunghei/whale-girl-pet/releases/download/v1.1.0/whale-girl-motion.mp4)
-- [Release 頁面](https://github.com/makcheunghei/whale-girl-pet/releases/tag/v1.1.0)
+## 原版動畫
 
-直接瀏覽：[全部姿勢](previews/contact-sheet.png) · [16 個方向](previews/directions.png) · [四個時間點嘅預覽](previews/motion-stills.png)
+![原版九種動作](variants/original/previews/motion.gif)
 
-## 新版動畫
+[全部姿勢](variants/original/previews/contact-sheet.png) · [16 個方向](variants/original/previews/directions.png) · [待機與跳躍](variants/original/previews/idle-jump.gif)
 
-- v1.1.0 採用 **A 短身比例**，重畫全部 73 格，待機、移動及轉頭保持同一短身造型。
-- 長髮同尾巴收近身體，預留安全邊距，保持每個姿勢完整。
-- 左右移動分別面向正確方向，加入交替步姿。
-- 待機有呼吸及眨眼；另外包含揮手、失敗、等待輸入、思考及檢查動作。
-- 跳躍包含準備、蹲低、騰空、下降及落地。
-- 身體比例、腳底位置及方向列之間嘅大小已統一。
+## A 短身版動畫
 
-素材由 AI 輔助生成，再作逐格提取、排列、比例對齊及驗證。
+![A 短身版九種動作](variants/short/previews/motion.gif)
 
-## 動畫圖格式
+[選定比例參考](variants/short/assets/character-reference.png) · [全部姿勢](variants/short/previews/contact-sheet.png) · [16 個方向](variants/short/previews/directions.png) · [待機與跳躍](variants/short/previews/idle-jump.gif)
 
-| 項目 | 數值 |
+## 倉庫內嘅兩套素材
+
+- **原版**：[variants/original](variants/original/README.md)，內有 `assets/`、`previews/`、`pet.json` 同 `validation.json`。
+- **A 短身版**：[variants/short](variants/short/README.md)，內有同一套檔案結構及選定比例參考。
+
+下載倉庫後，直接使用所選方案嘅目錄即可。根目錄現有嘅 `assets/`、`previews/`、`pet.json` 同 `validation.json` 保留 v1.1.0 短身版路徑相容性；選擇方案時請使用上面兩個明確目錄。
+
+## 共用動畫圖格式
+
+| 項目 | 兩款共用規格 |
 | --- | --- |
-| 檔案 | `assets/whale-girl-v2.png` |
-| 格式 | PNG，透明背景 |
-| 版本 | Sprite sheet v2 |
+| 格式 | PNG，透明背景，sprite sheet v2 |
 | 整張尺寸 | 1536 × 2288 px |
 | 每格尺寸 | 192 × 208 px |
 | 排列 | 8 欄 × 11 列 |
-| 使用中嘅格 | 73 |
-| 留空透明格 | 15 |
+| 有效姿勢／留空透明格 | 73／15 |
+| 標準狀態 | 待機、向右移動、向左移動、揮手、跳躍、失敗、等待輸入、思考／處理工作、檢查 |
+| 方向姿勢 | 16 個方向，每格順時針增加 22.5° |
 
-每列由最左邊開始放置有效姿勢。以下列號由 **0** 開始：
-
-| 列 | 狀態 | 格數 | GIF 預覽 |
-| --- | --- | ---: | --- |
-| 0 | 待機 `idle` | 6 | [查看](previews/states/idle.gif) |
-| 1 | 向右移動 `running-right` | 8 | [查看](previews/states/running-right.gif) |
-| 2 | 向左移動 `running-left` | 8 | [查看](previews/states/running-left.gif) |
-| 3 | 揮手 `waving` | 4 | [查看](previews/states/waving.gif) |
-| 4 | 跳躍 `jumping` | 5 | [查看](previews/states/jumping.gif) |
-| 5 | 失敗 `failed` | 8 | [查看](previews/states/failed.gif) |
-| 6 | 等待輸入 `waiting` | 6 | [查看](previews/states/waiting.gif) |
-| 7 | 思考／處理工作 `running` | 6 | [查看](previews/states/running.gif) |
-| 8 | 檢查 `review` | 6 | [查看](previews/states/review.gif) |
-| 9 | 望向周圍，000°–157.5° | 8 | [查看完整方向循環](previews/look.gif) |
-| 10 | 望向周圍，180°–337.5° | 8 | [查看完整方向循環](previews/look.gif) |
-
-方向使用畫面座標：**000° 向上、090° 向右、180° 向下、270° 向左**，每格順時針增加 22.5°。`running` 代表處理工作時嘅思考動作。
-
-## 使用素材
-
-1. 下載完整 PNG，保留原有尺寸及透明背景。
-2. 使用支援上述 v2 格式嘅動畫工具，按每格 `192 × 208` 提取姿勢。
-3. 各狀態只讀取表中指定格數，跳過該列其餘透明格。
-4. 如需格式資料，可讀取 [pet.json](pet.json)。
-
-GIF／MP4 係方便瀏覽嘅動畫示範；完整可用素材係 PNG。實際播放節奏會由使用素材嘅程式決定。
+方向使用畫面座標：**000° 向上、090° 向右、180° 向下、270° 向左**。每列格數及播放方式詳見各方案嘅 README 同 `pet.json`。GIF／MP4 係動畫示範，實際播放節奏由使用素材嘅程式決定。
 
 ## 驗證摘要
 
-- 所有 73 格通過尺寸、透明背景及格位驗證。
-- 跳躍最高離地 **14 px**；落地同待機腳底位置差 **0 px**。
-- 四個主方向、全身完整度及兩列方向姿勢嘅比例通過獨立視覺審查。
-- 部分相鄰斜角嘅轉頭幅度較細，保留視覺審查提示。
-- 詳細數值及檔案 SHA-256：[validation.json](validation.json)。
+| 項目 | 原版 | A 短身版 |
+| --- | --- | --- |
+| 尺寸、透明背景及格位 | 73 格通過 | 73 格通過 |
+| 跳躍最高離地 | 36 px | 14 px |
+| 落地與待機位置差 | 1 px | 0 px |
+| 驗證資料及 PNG SHA-256 | [原版 validation.json](variants/original/validation.json) | [短身版 validation.json](variants/short/validation.json) |
 
-![待機到跳躍再返回待機](previews/idle-jump.gif)
+兩款嘅四個主方向、全身完整度及比例均已接受視覺審查。部分相鄰斜角嘅轉頭幅度較細，保留原有審查提示。
 
-## 舊版
-
-[v1.0.0 素材包](https://github.com/makcheunghei/whale-girl-pet/releases/tag/v1.0.0) 保留喺 Releases，方便比較之前嘅身體比例。
+素材由 AI 輔助生成，再作逐格提取、排列、比例對齊及驗證。兩套現有 Release 素材包均獨立保留。

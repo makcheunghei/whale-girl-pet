@@ -1,0 +1,89 @@
+{
+  "name": "小鯨魚娘",
+  "description": "深藍色長髮、鯨魚尾同側鰭嘅 Q 版女僕小鯨魚。",
+  "version": "1.1.0",
+  "spritesheet": "assets/whale-girl-v2.png",
+  "sprite_version": 2,
+  "width": 1536,
+  "height": 2288,
+  "cell_width": 192,
+  "cell_height": 208,
+  "columns": 8,
+  "rows": [
+    {
+      "row": 0,
+      "state": "idle",
+      "frames": 6
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "frames": 8
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "frames": 8
+    },
+    {
+      "row": 3,
+      "state": "waving",
+      "frames": 4
+    },
+    {
+      "row": 4,
+      "state": "jumping",
+      "frames": 5
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "frames": 8
+    },
+    {
+      "row": 6,
+      "state": "waiting",
+      "frames": 6
+    },
+    {
+      "row": 7,
+      "state": "running",
+      "frames": 6
+    },
+    {
+      "row": 8,
+      "state": "review",
+      "frames": 6
+    },
+    {
+      "row": 9,
+      "state": "look-000-157.5",
+      "frames": 8
+    },
+    {
+      "row": 10,
+      "state": "look-180-337.5",
+      "frames": 8
+    }
+  ],
+  "look_degrees_clockwise_from_up": [
+    0.0,
+    22.5,
+    45.0,
+    67.5,
+    90.0,
+    112.5,
+    135.0,
+    157.5,
+    180.0,
+    202.5,
+    225.0,
+    247.5,
+    270.0,
+    292.5,
+    315.0,
+    337.5
+  ],
+  "body_proportion": "A-short",
+  "character_reference": "assets/character-reference.png"
+}
